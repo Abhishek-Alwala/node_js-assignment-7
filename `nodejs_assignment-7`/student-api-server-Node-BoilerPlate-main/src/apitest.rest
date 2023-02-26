@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/student
+
+###
+GET http://localhost:8080/api/student/2
+
+###
+POST http://localhost:8080/api/student?name=Ram&currentClass=12&division=C
+
+###
+PUT http://localhost:8080/api/student/2?name=alien
+
+###
+DELETE http://localhost:8080/api/student/2
+
+
